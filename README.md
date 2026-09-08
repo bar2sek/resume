@@ -1,3 +1,19 @@
+---
+title: "Professional Resume & Platform Engineering Portfolio"
+date: 2026-09-07
+tags:
+  - resume
+  - career
+  - aws
+  - terraform
+  - python
+  - hub
+status: evergreen
+aliases:
+  - "Resume Hub"
+  - "Career Portfolio"
+---
+
 # Ryan Bartusek – Resume & Platform Engineering Portfolio
 
 [![AWS Certified](https://img.shields.io/badge/AWS-Certified-orange.svg)](https://aws.amazon.com)
