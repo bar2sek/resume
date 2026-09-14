@@ -375,7 +375,11 @@ chrome_path = os.environ.get(
     "CHROME_PATH",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     if os.path.exists("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
-    else (shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser") or "google-chrome")
+    else (
+        "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+        if os.path.exists("/Applications/Brave Browser.app/Contents/MacOS/Brave Browser")
+        else (shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser") or "google-chrome")
+    )
 )
 pdf_output = "Ryan_Bartusek_Resume_2026v7.pdf"
 
